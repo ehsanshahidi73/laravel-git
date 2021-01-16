@@ -66,7 +66,7 @@ Route::resource('/posts', 'App\Http\Controllers\PostsController');
 Route::get('/testadmin',function (){
    echo "hello to admin page......";
 })->middleware('isAdmin:مدیر');
-
+// یک تغییر جدید ایجاد شد
 
 
 
